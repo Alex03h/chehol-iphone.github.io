@@ -1,0 +1,522 @@
+#body{
+	height:550px;
+}
+header{
+    background-image:url(photo/фон-2.jpg);
+	background-size: cover;
+}
+.LOGO{
+	font-size:2em;
+	color:white;
+}
+.END{
+	color:#ce6940;
+}
+.LOGOEND{
+	font-family:'Mistral';
+	font-size:1.3em;
+}
+/*Для великого лого*/
+.Logo{
+color:white;
+}
+.photo{
+	transform:translate(900px,-4230px);    /* фотка*/
+	height:450px; 
+	width: 340px;     
+	padding-bottom:0px;                        
+}
+
+nav{
+	padding: 8px 0px ; 
+	min-width: 1500px;
+}
+a{
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+nav ul li:hover{
+	transform:scale(1.5);
+}
+nav ul li a{
+	padding: 56px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-family:'Cambria Math ';
+	font-weight:400;
+	color:#0a2959;
+	font-style:italic;
+}
+#nomer{
+	font-size:1.8em;
+	border-bottom-style:dashed;
+	border-bottom-style-color:white;
+	border-color: white;
+	color:#7bfde6;
+}
+.telephone{
+ vertical-align:-15px; /*значок телефона*/
+}
+.tel:hover{
+	transform:scale(1.3);
+}                                     /*значок і телефон*/
+.tel{
+	margin-left: 40px;
+	transform: translate(-40px,0px);
+}
+.li{
+	margin-left: 30px;
+}
+
+/*LOGOEND великими*/
+header>h1{
+	font-size: 80px;
+	margin: 45px 0px 15px 50px;
+    font-family:'Imprint MT Shadow';
+    font-weight: 900;
+    text-indent: 80px;
+}
+/*Будь-який чехол...*/
+.l{
+	padding: 15px 0px 15px 50px;
+	text-indent:140px;
+	color:#0f384f;
+	font-family:'Cambria';
+    font-weight: 400; 
+}
+
+.table1{
+	margin:25px 0px 0px 210px;
+	vertical-align: middle;
+	text-align: center;
+	border-style:solid;
+	border-color:#122434;
+	font-size:1.5em;
+	border-width: 4px;
+	background-image: url(photo/фон-до-кнопки.jpg);    /*зробить замовлення*/
+	background-clip: padding-box;
+	background-repeat: no-repeat;
+	background-size: 350px 350px;
+	text-decoration: none;
+    color:#042c42;
+
+}
+
+.th1{
+	margin:20px 20px 20px 20px;    
+	color:#fb7651;
+}
+.table2{                                    /*крутий стиль*/
+	background-color: #122434;
+    margin-right:100px; 
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.h{
+	color: #609eb8;
+	margin:25px 0px 0px 50px;    /*  важне но не поняв*/
+}
+
+
+
+
+
+
+
+.desine{
+	font-family:'Raleway';     /*унікальний дизайн...*/
+	font-size:65px;
+	color:#5c9dd5;
+}
+ /*Перші 3 фоткі*/
+.table3{
+text-indent: 23px;
+}
+.table0{
+	text-indent:2px;
+
+}
+.chehol1{
+	font-size:22px;
+	font-family:Open sans;   /*чехол світитьс в темноті*/
+	color:#0e497c; 
+}
+.iphone{
+	font-family:"Cooper Black";
+	font-size:20px;             /* iphone 6s*/
+	color:#0f384f;
+}
+.a{
+	font-size: 28px;
+	text-decoration: none;
+	font-family:'Cambria Math ';
+	font-weight:400;
+	color:#0a2959;
+	background-color:#9bc8e1;
+	border-radius: 10px;
+	border-color:#5c9dd5;
+	border-width: 1px;
+	border-style: dashed;
+	
+}
+
+
+
+
+
+.phot{
+	transform: translate(100px,0px)   /* картинка доставки*/
+}
+
+.h5{
+	transform: translate(-300px,20px);    /* наложний платеж*/
+	
+}
+.table4{
+	transform: translate(280px,-250px);
+	font-size: 2em;
+	color:#dd2d1d;
+	font-family:"Meiryo UI";                 /* ми доставим і наложний(контакти)*/
+	font-weight:bold;
+}
+
+
+
+
+
+.all{
+	transform: translate(-20px,-200px);      /*контакти усе */
+}
+.desine1{
+	transform: translate(-20px,-145px);
+	font-family:'Raleway';     /*контакти...*/
+	font-size:65px;
+	color:#5c9dd5;
+}
+.th4{
+	font-size:30px;
+	color:#3d5185;                         /*контакти перші 3 верзні через сайт ,,,*/
+	font-family:'Meiryo';
+	transform: translate(-100px,15px);
+}
+.th2{
+	font-size:33px;
+	color:#3d5185;                         /*контакти перші 3 верзні через сайт ,,,*/
+	font-family:'Meiryo';
+	transform: translate(-10px,15px);
+}
+.th3{
+	font-size:30px;
+	color:#3d5185;                         /*контакти перші 3 верзні через сайт ,,,*/
+	font-family:'Meiryo';
+	transform: translate(-10px,15px);
+}
+
+.Oleks{
+	font-family:'Raleway';
+	font-size:40px;                       /* олександр герасимчук*/
+	color:#3c5185;
+	transform: translate(90px,-20px);
+}
+.adres{
+	font-family:"Meiryo";           /*адрес*/
+	font-size:28px;
+	color:#3c5185;
+
+}
+.gmail{
+	text-indent:56px;
+	transform:translate(85px,-40px);            /* gmail*/
+}
+.fg{
+	font-family:Raleway;
+	font-size:40px;                         /*telephone*/
+	color:#3c5185;
+	transform: translate(0px,30px);
+}
+
+
+
+
+.desine2{
+	font-family:'Raleway';     /*унікальний дизайн...*/
+	font-size:65px;
+	color:#5c9dd5;
+	transform: translate(0px,-250px);
+}
+
+.table6{
+	transform: translate(200px,-200px);
+	color:#0e497c;
+	font-family:"Cambria";               /*залишити заявку( будь який чехол..)*/
+	font-weight:bold;
+	font-size:2em;
+}
+
+
+.table7{
+	background-color:#ebebeb;
+	border-radius: 15px;              /* залишити заявку (форм)*/
+	width:400px;
+	height: 390px;	
+	transform: translate(950px,-550px);
+}
+#class{
+	font-size:2.4em;
+	font-family:"Cambria";
+	font-weight:bold;
+	color:#0e497c;
+	transform: translate(20px,0px);
+}
+#name{
+	font-size:26px;
+	font-family:"Cambria";
+	font-weight:bolder;                    /* залити заявку (сама натпісь)*/
+	color:#0e497c;
+	transform: translate(0px,-30px);
+	text-indent:20px;
+}
+#phon{
+   background-color:#cccccc;
+   height: 28px;
+   width:285px;                           /*там де водиться імя*/
+   transform: translate(20px,-50px);
+}
+.nomer1{
+	font-size:23px;
+	font-family:"Cambria";
+	font-weight:bold;
+	color:#0e497c;                           /*ваш номер телефона*/
+	transform: translate(0px,-65px);
+	text-indent:20px;
+}
+.nomer2{
+	font-size:23px;
+	font-family:"Cambria";
+	font-weight:bold;
+	color:#0e497c;                           /*ваш номер телефона*/
+	transform: translate(0px,-100px);
+	text-indent:20px;
+
+}
+.vd{
+	background-color:#cccccc;
+   height: 28px;                       /* вод телефона*/
+   width:285px;
+   transform: translate(20px,-80px);
+}
+.vr{
+	background-color:#cccccc;
+   height: 28px;                       /* вод телефона*/
+   width:285px;
+   transform: translate(20px,-110px);
+}
+
+.nomer3{
+	font-size:26px;
+	font-family:"Cambria";               /*номер чехла*/
+	font-weight:bold;
+	color:#0e497c;
+	transform: translate(0px,-130px);
+	text-indent:20px;
+}
+.cheh{
+   background-color:#cccccc;
+   height: 38px;                         /*номера чехлов для вода*/
+   width:190px;
+   transform: translate(20px,-150px);
+}
+#submit{
+background-color:#5c9dd5;
+color:#0e497c;
+width: 160px;
+height: 42px;
+font-size:1.5em;                      /* кнопка*/
+font-weight:bold;
+border-radius:10px;
+font-family: "Cambria";
+transform: translate(20px,-148px);
+}
+
+
+.footer{
+	background-color:#252525;         /*footer*/
+	transform: translate(0px,-500px);
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
+.f_li{
+	color:white;
+	font-style:normal; 
+	padding: 56px;
+	font-size: 20px;                           /*футер  головне .....  */      
+	text-decoration: none;
+	font-family:'Cambria Math ';
+	font-weight:400;
+}
+#ip{
+  transform: translate(1225px,8px);
+  color:#5c9dd5;
+  font-size:18px;
+}
+#li{
+transform: translate(100px,0px);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:320px) {
+#body{
+	height:550px;
+}
+header{
+    background-image:url(photo/фон-2.jpg);
+	background-size: cover;
+}
+.LOGO{
+	font-size:2em;
+	color:white;
+}
+.END{
+	color:#ce6940;
+}
+.LOGOEND{
+	font-family:'Mistral';
+	font-size:1.3em;
+}
+/*Для великого лого*/
+.Logo{
+color:white;
+}
+.photo{
+	transform:translate(900px,-4200px);    /* фотка*/
+	height:450px; 
+	width: 340px;     
+	padding-bottom:0px;                        
+}
+
+nav{
+	padding: 8px 0px ; 
+	min-width: 1500px;
+}
+a{
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+nav ul li:hover{
+	transform:scale(1.5);
+}
+nav ul li a{
+	padding: 56px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-family:'Cambria Math ';
+	font-weight:400;
+	color:#0a2959;
+	font-style:italic;
+}
+#nomer{
+	font-size:1.8em;
+	border-bottom-style:dashed;
+	border-bottom-style-color:white;
+	border-color: white;
+	color:#7bfde6;
+}
+.telephone{
+ vertical-align:-15px; /*значок телефона*/
+}
+.tel:hover{
+	transform:scale(1.3);
+}                                   /*  значок і телефон*/
+.tel{
+	margin-left: 40px;
+	transform: translate(-40px,0px);
+}
+.li{
+	margin-left: 30px;
+}
+
+/*LOGOEND великими*/
+header>h1{
+	font-size: 80px;
+	margin: 45px 0px 15px 50px;
+    font-family:'Imprint MT Shadow';
+    font-weight: 900;
+    text-indent: 80px;
+}
+/*Будь-який чехол...*/
+.l{
+	padding: 15px 0px 15px 50px;
+	text-indent:140px;
+	color:#0f384f;
+	font-family:'Cambria';
+    font-weight: 400; 
+}
+
+.table1{
+	margin:25px 0px 0px 210px;
+	vertical-align: middle;
+	text-align: center;
+	border-style:solid;
+	border-color:#122434;
+	font-size:1.5em;
+	border-width: 4px;
+	background-image: url(photo/фон-до-кнопки.jpg);    /*зробить замовлення*/
+	background-clip: padding-box;
+	background-repeat: no-repeat;
+	background-size: 350px 350px;
+	text-decoration: none;
+    color:#042c42;
+
+}
+
+.th1{
+	margin:20px 20px 20px 20px;    
+	color:#fb7651;
+}
+.table2{                                    /*крутий стиль*/
+	background-color: #122434;
+    margin-right:100px; 
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.h{
+	color: #609eb8;
+	margin:25px 0px 0px 50px;    /*  важне но не поняв*/
+}
+}
+@media(min-width:321px)and(max-width:767px){
+
+} 
+@media(min-width:768px)and(max-width:1096px){
+	
+} 
